@@ -1,0 +1,5 @@
+new_func f = 1/x^(1/2)
+set_func f
+calculate f 1 e rec 10000
+calculate f 1 e sim 10000
+calculate f 1 e trap 10000

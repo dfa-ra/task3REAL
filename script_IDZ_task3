@@ -1,0 +1,10 @@
+new_func f = 1/x^(1/2)
+new_const I = 2*e^(1/2) - 2
+new_const a = 1
+new_const b = e
+calculate f a b sim 100000
+new_func MAE = abs(I - Ikf(x))/x
+new_func MSE = (I - Ikf(x))^2/x
+draw MAE 1 100 1
+draw MSE 1 100 1
+

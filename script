@@ -1,0 +1,6 @@
+new_func f = sin(x)
+new_const a = 1
+new_const b = e
+new_func g = Ikf(x)
+new_func h = g * 2
+draw h 1 1000 1
