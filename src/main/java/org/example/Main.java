@@ -7,5 +7,6 @@ public class Main {
         System.out.println( "-----------------START-----------------" );
         Invoker inv = new Invoker();
         inv.commandSelection();
+        System.out.println("test");
     }
 }
